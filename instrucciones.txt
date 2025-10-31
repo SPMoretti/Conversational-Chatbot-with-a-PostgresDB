@@ -1,0 +1,20 @@
+- Introducción
+
+Los datos corresponden a los sensados de una máquina que responde a un ciclo Joule-Brayton:
+El ciclo Joule-Brayton, también conocido como ciclo Brayton, es un ciclo termodinámico utilizado en motores a reacción y turbinas de gas. Este ciclo se caracteriza por ser un ciclo de dos fases, donde el aire se comprime y luego se expande para generar trabajo.
+El proceso comienza con la compresión del aire, lo que aumenta su presión y temperatura. Luego, se añade calor al aire comprimido a través de la combustión de un combustible, lo que provoca una expansión del gas. 
+Finalmente, el gas en expansión realiza trabajo al mover una turbina, permitiendo que se genere energía.
+En este caso, el aire comprimido ingresa a la cámara de combustión precalentado por los gases de escape de la turbina, a través de un intercambiador de calor.
+Este ciclo permite convertir energía térmica en energía mecánica de manera eficiente
+
+- Descripción de la tabla:
+    -Cada fila de la tabla representa 50 milisegundos en el tiempo
+    -t13: temperatura ambiente, en grados Kelvin
+    -t2: temperatura de entrada al compresor, en grados Kelvin
+    -t41_44_avg: temperatura de entrada a la turbina de expansión, en grados Kelvin
+    -t91: temperatura del eje, en grados Kelvin
+    -w9: velocidad de eje, en rpm.
+    -gen_tsb: temperatura del bobinado, en grados Kelvin
+    -inv_s: potencia del inverter, en Watts
+    -injectorduty: duty de gas
+
